@@ -1,0 +1,68 @@
+body{
+	text-align: center;
+	color: white;
+	background-color: black;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.container{
+	width: 600px;
+}
+
+@media(max-width: 767px) {
+  .container {
+    width: 450px;
+}
+}
+
+@media(max-width: 470px) {
+  .container {
+    width: 350px;
+  }
+}
+
+@media(max-width: 350px) {
+  .container {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+table{
+	width:100%;
+}
+
+tr{
+	background: #33344c;
+}
+
+tr:nth-of-type(odd){
+	background: #27294c;
+}
+
+p{
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.jumbotron{
+	margin-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	background-color: #141633;
+	text-shadow: 4px 3px black;
+}
+
+.container .jumbotron{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-radius: 0px;
+}
+
+div#footer{
+	font-style: italic;
+	background-color: #141633;
+}
